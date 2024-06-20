@@ -3,7 +3,6 @@
 /Users/corcovado/locarno/dev/clients/volleyball-buddies/volley-backend/src/main/java/com/teamplayer11/player/config/SecurityConfig.java
 /Users/corcovado/locarno/dev/clients/volleyball-buddies/volley-backend/src/main/java/com/teamplayer11/player/book/BookService.java
 /Users/corcovado/locarno/dev/clients/volleyball-buddies/volley-backend/src/main/java/com/teamplayer11/player/player/PlayerController.java
-/Users/corcovado/locarno/dev/clients/volleyball-buddies/volley-backend/src/main/java/com/teamplayer11/player/config/CorsConfig.java
 /Users/corcovado/locarno/dev/clients/volleyball-buddies/volley-backend/src/main/java/com/teamplayer11/player/book/BookRepository.java
 /Users/corcovado/locarno/dev/clients/volleyball-buddies/volley-backend/src/main/java/com/teamplayer11/player/VolleyBackendApplication.java
 /Users/corcovado/locarno/dev/clients/volleyball-buddies/volley-backend/src/main/java/com/teamplayer11/player/player/Player.java
