@@ -1,0 +1,11 @@
+com/teamplayer11/player/config/CorsConfig.class
+com/teamplayer11/player/config/SecurityConfig.class
+com/teamplayer11/player/player/PlayerRepository.class
+com/teamplayer11/player/VolleyBackendApplication.class
+com/teamplayer11/player/book/BookService.class
+com/teamplayer11/player/player/PlayerController.class
+com/teamplayer11/player/config/CorsConfig$1.class
+com/teamplayer11/player/book/Book.class
+com/teamplayer11/player/player/Player.class
+com/teamplayer11/player/book/BookController.class
+com/teamplayer11/player/book/BookRepository.class
