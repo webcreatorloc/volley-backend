@@ -44,8 +44,8 @@ public class SecurityConfig {
     @Bean
     public UserDetailsService userDetailsService() {
         UserDetails normalUser = User.builder()
-                .username("gc") //1234 - to login you need to enter this e not the generatec encoded password
-                .password("$2a$12$NJkSSlJGiSMqxSaJ02C.Xucb.y2N/yGFzBasRCSeLUU1PezLWCIPi")
+                .username("gc") //1234 - to login you need to enter this e not the generate encoded password
+                .password("$2a$12$jGjMAp0L2VA/6qWcwxsyHek6hVe9ETmKp.Cgr4R39GqMKGLLzeEba")
                 .roles("USER")
                 .build();
         return new InMemoryUserDetailsManager(normalUser);
