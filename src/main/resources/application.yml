@@ -1,6 +1,8 @@
 spring:
     application:
         name: volley-backend
+    server:
+        port: 8080
     datasource:
         driver-class-name: org.postgresql.Driver
         hikari:
@@ -10,11 +12,12 @@ spring:
         url: ${DB_URL}
         username:  ${DB_USERNAME}
     jpa:
+        open-in-view: false
         hibernate:
             ddl-auto: none #update
         properties:
             hibernate:
-               ## dialect: org.hibernate.dialect.PostgreSQL82Dialect
+                ##dialect: org.hibernate.dialect.PostgreSQLDialect
                 jdbc:
                     lob:
                         non_contextual_creation: true
