@@ -2,11 +2,14 @@ package com.teamplayer11.player.book;
 
 
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import java.time.LocalDateTime;
 import java.util.Date;
 
 @RestController
+@RequestMapping
 public class BookController {
 
     private final BookService bookService;
@@ -16,13 +19,7 @@ public class BookController {
     }
 
     @GetMapping("/")
-    public String home() {
-        Long myId = Long.valueOf(1);
-        String message = "Message";
-
-        //Book book = bookService.getBookById(myId);
-        message = "Today is: 21-06  version 1";
-
-        return "The book is named now: " + message;
+    public String showTimestamp() {
+        return "Current Date is : " + LocalDateTime.now().toString();
     }
 }
