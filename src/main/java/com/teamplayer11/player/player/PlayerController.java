@@ -4,16 +4,24 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
+import static com.teamplayer11.player.VolleyBackendApplication.SEC_ALLOWED_ORIGIN;
+
 @RestController
 public class PlayerController {
 
-    private final PlayerRepository playerRepository;
+   // private final PlayerRepository playerRepository;
 
-   public PlayerController(PlayerRepository playerRepository) {
-       this.playerRepository = playerRepository;
-   }
+   //public PlayerController(PlayerRepository playerRepository) {
+    //   this.playerRepository = playerRepository;
+   //}
 
-    @GetMapping("/players")
+    @GetMapping("/hello")
+    public String getSecVar() {
+       return "Hello " + SEC_ALLOWED_ORIGIN;
+    }
+
+
+   /* @GetMapping("/players")
     public List<Player> getPlayers() {
        return (List<Player>) playerRepository.findAll();
     }
@@ -21,5 +29,5 @@ public class PlayerController {
     @PostMapping("/player")
     void addPlayer(@RequestBody Player Player) {
         playerRepository.save(Player);
-    }
+    }*/
 }
