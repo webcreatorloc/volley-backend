@@ -6,8 +6,8 @@ spring:
     datasource:
         driver-class-name: org.postgresql.Driver
         hikari:
-            connectionTimeout: 20000
-            maximumPoolSize: 5
+            connectionTimeout: 1000 #20000
+            maximumPoolSize: 2 #5
         password: ${DB_PASSWORD}
         url: ${DB_URL}
         username:  ${DB_USERNAME}
@@ -17,7 +17,6 @@ spring:
             ddl-auto: none #update
         properties:
             hibernate:
-                dialect: org.hibernate.dialect.PostgreSQLDialect
                 format_sql: true
                 #jdbc:
                  #   lob:
