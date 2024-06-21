@@ -18,9 +18,10 @@ spring:
         properties:
             hibernate:
                 ##dialect: org.hibernate.dialect.PostgreSQLDialect
-                jdbc:
-                    lob:
-                        non_contextual_creation: true
+                format_sql: true
+                #jdbc:
+                 #   lob:
+                 #       non_contextual_creation: true
     output:
         ansi:
             enabled: 'ALWAYS'
